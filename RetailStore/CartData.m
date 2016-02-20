@@ -29,7 +29,7 @@
 }
 -(int)calCulateTotal{
     NSArray *arr = [self.fetchedResultsController fetchedObjects];
-    int len =   arr.count;
+    int len =   (int) arr.count;
     int totalCost = 0;
     for (int i =0 ;i<len;i++) {
         NSManagedObject *manageObject = [[self.fetchedResultsController fetchedObjects] objectAtIndex:i];

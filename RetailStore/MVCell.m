@@ -23,7 +23,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         // Initialization code
-        mydata = [[NSMutableDictionary alloc] initWithObjectsAndKeys: nil];
+        mydata = [NSMutableDictionary dictionary];
     }
     return self;
 }
