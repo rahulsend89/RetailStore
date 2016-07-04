@@ -9,7 +9,6 @@
 #import "ProductData.h"
 #import "AppDelegate.h"
 @interface ProductData ()
-@property(readonly,strong)NSDictionary*tampData;
 @property (nonatomic, strong) void(^completionHandler)();
 @end
 @implementation ProductData

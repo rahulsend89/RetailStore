@@ -14,6 +14,7 @@
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property(readwrite,nonatomic)NSString *entityName;
+@property(readonly,strong)NSDictionary*tampData;
 @property(readwrite,strong,nonatomic)UITableView *tableView;
 +(ProductData *)sharedData;
 -(void)setDataReload:(UITableView*) tableView :(void (^)())handler;
