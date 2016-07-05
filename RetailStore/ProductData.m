@@ -167,10 +167,6 @@
 
 #pragma mark - NSFetchedResultsControllerDelegate Methods
 
-- (void)controllerWillChangeContent:(NSFetchedResultsController *)controller
-{
-    [self.tableView beginUpdates];
-}
 - (void)controller:(NSFetchedResultsController *)controller didChangeSection:(id <NSFetchedResultsSectionInfo>)sectionInfo
            atIndex:(NSUInteger)sectionIndex forChangeType:(NSFetchedResultsChangeType)type
 {
@@ -218,6 +214,12 @@
     //use this function in CartData
     return 0;
 }
+
+- (void)controllerWillChangeContent:(NSFetchedResultsController *)controller
+{
+    [self.tableView beginUpdates];
+}
+
 - (void)controllerDidChangeContent:(NSFetchedResultsController *)controller
 {
     NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
