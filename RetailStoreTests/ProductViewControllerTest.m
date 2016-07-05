@@ -26,7 +26,7 @@
 
 - (void)testproductData {
     ProductData *productData = [ProductData sharedData];
-    XCTAssert(productData.tampData.count,"count souuld be greater then 10");
+    XCTAssert(productData.tampData.count,"count should be greater then 10");
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
