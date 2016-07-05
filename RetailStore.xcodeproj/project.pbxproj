@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AFB6167D82ED1AEC45DB475 /* Pods_RetailStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27619587AD5C67E62CED7B0E /* Pods_RetailStore.framework */; };
 		BE82C3171A2D6EC0004B1438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE82C3161A2D6EC0004B1438 /* main.m */; };
 		BE82C31A1A2D6EC0004B1438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE82C3191A2D6EC0004B1438 /* AppDelegate.m */; };
 		BE82C31D1A2D6EC0004B1438 /* RetailStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE82C31B1A2D6EC0004B1438 /* RetailStore.xcdatamodeld */; };
@@ -31,6 +32,7 @@
 		BEBC1A531A2E4A06005E7A1A /* CartData.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBC1A521A2E4A06005E7A1A /* CartData.m */; };
 		BEBC1A5A1A2E5D07005E7A1A /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBC1A591A2E5D07005E7A1A /* CartViewController.m */; };
 		BEE50F5F1A2E81C700043FBD /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE50F5E1A2E81C700043FBD /* Product.m */; };
+		CB427B7BC0C4C41DE27CD29E /* Pods_RetailStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5F317D7B6CC09EB3B71291 /* Pods_RetailStoreTests.framework */; };
 		E82FFAD51C7C7D1B00A36FCC /* ProductViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E82FFAD41C7C7D1B00A36FCC /* ProductViewControllerTest.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C1772000A955FD5C93C8F76 /* Pods-RetailStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetailStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetailStoreTests/Pods-RetailStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		27619587AD5C67E62CED7B0E /* Pods_RetailStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetailStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6082FFC624D4A0E4EB7E14 /* Pods-RetailStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetailStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetailStoreTests/Pods-RetailStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D81448A41DE15B75C4A1E33 /* Pods-RetailStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetailStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetailStore/Pods-RetailStore.release.xcconfig"; sourceTree = "<group>"; };
+		9F5F317D7B6CC09EB3B71291 /* Pods_RetailStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetailStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE82C3111A2D6EC0004B1438 /* RetailStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetailStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE82C3151A2D6EC0004B1438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE82C3161A2D6EC0004B1438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,6 +86,7 @@
 		BEBC1A591A2E5D07005E7A1A /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
 		BEE50F5D1A2E81C700043FBD /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		BEE50F5E1A2E81C700043FBD /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		D84605623DA71606B15CC1EF /* Pods-RetailStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetailStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetailStore/Pods-RetailStore.debug.xcconfig"; sourceTree = "<group>"; };
 		E82FFAD21C7C7D1B00A36FCC /* RetailStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetailStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82FFAD41C7C7D1B00A36FCC /* ProductViewControllerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductViewControllerTest.m; sourceTree = "<group>"; };
 		E82FFAD61C7C7D1B00A36FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFB6167D82ED1AEC45DB475 /* Pods_RetailStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,18 +105,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB427B7BC0C4C41DE27CD29E /* Pods_RetailStoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091DCB36E882262CB93C542C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27619587AD5C67E62CED7B0E /* Pods_RetailStore.framework */,
+				9F5F317D7B6CC09EB3B71291 /* Pods_RetailStoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74332EF092828D2BDFA2A8C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D84605623DA71606B15CC1EF /* Pods-RetailStore.debug.xcconfig */,
+				7D81448A41DE15B75C4A1E33 /* Pods-RetailStore.release.xcconfig */,
+				4B6082FFC624D4A0E4EB7E14 /* Pods-RetailStoreTests.debug.xcconfig */,
+				1C1772000A955FD5C93C8F76 /* Pods-RetailStoreTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BE82C3081A2D6EC0004B1438 = {
 			isa = PBXGroup;
 			children = (
 				BE82C3131A2D6EC0004B1438 /* RetailStore */,
 				E82FFAD31C7C7D1B00A36FCC /* RetailStoreTests */,
 				BE82C3121A2D6EC0004B1438 /* Products */,
+				74332EF092828D2BDFA2A8C9 /* Pods */,
+				091DCB36E882262CB93C542C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -216,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE82C33A1A2D6EC0004B1438 /* Build configuration list for PBXNativeTarget "RetailStore" */;
 			buildPhases = (
+				2DA7E1D1959B39927F6B3575 /* [CP] Check Pods Manifest.lock */,
 				BE82C30D1A2D6EC0004B1438 /* Sources */,
 				BE82C30E1A2D6EC0004B1438 /* Frameworks */,
 				BE82C30F1A2D6EC0004B1438 /* Resources */,
+				61A134102C6847987E555563 /* [CP] Embed Pods Frameworks */,
+				3DA1AE1AD7D138EA878F9968 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E82FFADB1C7C7D1B00A36FCC /* Build configuration list for PBXNativeTarget "RetailStoreTests" */;
 			buildPhases = (
+				47FF271A8816453C6C09558F /* [CP] Check Pods Manifest.lock */,
 				E82FFACE1C7C7D1B00A36FCC /* Sources */,
 				E82FFACF1C7C7D1B00A36FCC /* Frameworks */,
 				E82FFAD01C7C7D1B00A36FCC /* Resources */,
+				5FCDDA4A9B7D0AF3A0341E9B /* [CP] Embed Pods Frameworks */,
+				DFB014DB2AD9A5449975A22D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,6 +352,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DA7E1D1959B39927F6B3575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3DA1AE1AD7D138EA878F9968 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetailStore/Pods-RetailStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47FF271A8816453C6C09558F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCDDA4A9B7D0AF3A0341E9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetailStoreTests/Pods-RetailStoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61A134102C6847987E555563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetailStore/Pods-RetailStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB014DB2AD9A5449975A22D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetailStoreTests/Pods-RetailStoreTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE82C30D1A2D6EC0004B1438 /* Sources */ = {
@@ -452,6 +583,7 @@
 		};
 		BE82C33B1A2D6EC0004B1438 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84605623DA71606B15CC1EF /* Pods-RetailStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RetailStore/Info.plist;
@@ -464,6 +596,7 @@
 		};
 		BE82C33C1A2D6EC0004B1438 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D81448A41DE15B75C4A1E33 /* Pods-RetailStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RetailStore/Info.plist;
@@ -476,6 +609,7 @@
 		};
 		E82FFAD91C7C7D1B00A36FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6082FFC624D4A0E4EB7E14 /* Pods-RetailStoreTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -491,6 +625,7 @@
 		};
 		E82FFADA1C7C7D1B00A36FCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1772000A955FD5C93C8F76 /* Pods-RetailStoreTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
